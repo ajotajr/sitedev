@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:wght@400;700&family=Oswald&family=Raleway:ital,wght@0,400;1,200&family=Roboto:ital,wght@1,300&display=swap');
+
+/* menu site */
+
+.header {
+    width: 100%;
+    height: 60px;
+    background: #06080f;
+    padding: 10px;
+}
+
+.menu-topo {
+    text-align: right;
+
+}
+
+.menu-topo li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.menu-topo li a {
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+
+.menu-topo li a:hover {
+    transition: 0.7s all;
+    color: #e02b45;
+}
+
+/* Banner */
+
+.foco {
+    width: 100%;
+    height: 574px;
+    background: url(../img/capaofc.png) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.foco h1 {
+    font-family: 'Lato';
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 2px 2px 6px black;
+    text-align: center;
+    margin-top: 350px;
+    margin-bottom: 40px;
+    line-height: 60px;
+}
+
+.botao {
+    font-family: 'Lato';
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 25px;
+    background: #0190c9;
+    border-radius: 15px;
+}
+
+.botao:hover {
+    background: #e02b45;
+    transition: 0.7s all;
+    box-shadow: 2px 3px 3px 2px black;
+}
+
+/* Serviços */
+
+.servicos {
+    width: 100%;
+    height: 145px;
+    background-color: #161b31;
+}
+
+.servicos h2 {
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 45px;
+    color: rgb(168, 168, 168);
+}
+
+.servicos p {
+    font-family: 'Lato';
+    font-size: 17px;
+    margin-top: 10px;
+    color: rgb(197, 197, 197);
+}
+
+/* Nossos serviços */
+
+.nossos-servicos {
+    height: 435px;
+    background-color: #252d4d;
+
+}
+
+.nossos-servicos h2{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 45px;
+    text-align: center;
+    color: white;
+}
+
+.nossos-servicos h2::after {
+    content: " ";
+    width: 185px;
+    height: 3px;
+    background: #8657b1;
+    display: block;
+    margin: 0 auto;
+    margin-top: 8px;
+}
+
+.serve-img {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.serve-img h3 {
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    color: white;
+}
+
+.serve-img p {
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: center;
+    line-height: 25px;
+    color: #7491f8;
+}
+
+/* marcas */
+
+.marcas {
+    height: 435px;
+    background: #161b31;
+}
+
+.marcas h2 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.marcas p {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8657b1;
+    margin-top: 10px;
+}
+
+.logos {
+    margin-top: 70px;
+    max-width: 100%;
+    -moz-transition: all 0.4s;
+   
+    transition: all 0.4s;
+
+}
+
+.logos:hover {
+    -moz-transform: scale(0.1);
+    -webkit-transform: scale(0.1);
+    transform: scale(0.9);
+}
+
+
+
+/* Sobre Nos */
+
+.sobre {
+    height: 500px;
+    background: #252d4d;
+}
+
+.sobre h2 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.sobre p {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8657b1;
+    margin-top: 10px;
+}
+
+.sobre h3 {
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: right;
+    text-transform: uppercase;
+    line-height: 25px;
+    margin-top: 70px;
+    color: #7491f8;
+
+}
+
+.sobre img {
+    margin-top: 55px;
+
+}
+
+/* Objetivo */
+
+.objetivo {
+    height: 630px;
+    background: #161b31;
+}
+
+.objetivo h2 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.objetivo p {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8657b1;
+    margin-top: 10px;
+}
+
+.objetivo h3 {
+    font-family: 'Fjalla One';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 24px;
+    margin-top: 70px;
+    color: #7491f8;
+
+}
+
+.objetivo img {
+    margin-top: 55px;
+
+}
+.botao-orcamento {
+    background: #0190c9;
+    padding: 20px 20px;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    display: block;
+    margin-top: 70px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.botao-orcamento:hover {
+    background: #e02b45;
+    transition: 0.7s all;
+    box-shadow: 2px 3px 3px 2px black;
+}
+
+/* Localização */
+
+.localizacao {
+    height: 580px;
+    background: #252d4d;
+}
+
+.localizacao h2 {
+    font-family: 'Roboto';
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+}
+
+.localizacao p {
+    font-family: 'Lato';
+    font-size: 18px;
+    font-weight: lighter;
+    text-align: center;
+    text-transform: uppercase;
+    color: #8657b1;
+    margin-top: 10px;
+}
+
+.mapagoogle {
+    margin-top: 30px;
+}
+
+/* Rodapé */
+
+.footer {
+    height: 150px;
+    background: #06080f;
+}
+
+.footer h2 {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 20px;
+    text-align: left;
+    color: white;
+}
+
+.footer p {
+    font-family: 'Lato';
+    font-size: 20px;
+    font-weight: lighter;
+    text-align: left;
+    text-transform: unset;
+    color: #8657b1;
+    margin-top: 20px;
+}
+
+.redes-sociais {
+    margin-top: 20px;
+    
+}
